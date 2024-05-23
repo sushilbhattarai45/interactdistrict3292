@@ -1,70 +1,294 @@
-import { Image, StyleSheet, Platform } from 'react-native';
-
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import React from "react";
+import {
+  Image,
+  StyleSheet,
+  Platform,
+  View,
+  Text,
+  ScrollView,
+  SafeAreaView,
+  TouchableOpacity,
+  Dimensions,
+} from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 export default function HomeScreen() {
+  const [choosenFilter, setChoosenFilter] = React.useState("All");
+  const filterOptions = [
+    { name: "All", value: "All" },
+    { name: "Community", value: "Community" },
+    { name: "Club", value: "Club" },
+    { name: "District", value: "District" },
+    { name: "International", value: "International" },
+    { name: "Other", value: "Other" },
+  ];
+  const images = [
+    { image: "https://source.unsplash.com/1024x768/?nature", title: "Nature" },
+    {
+      image: "https://source.unsplash.com/1024x500/?girl",
+      title: "Water Tree",
+    },
+    {
+      image: "https://source.unsplash.com/1024x768/?tree",
+      title: "Water Girl",
+    },
+    {
+      image: "https://source.unsplash.com/1024x768/?girl",
+      title: "Water Girl",
+    },
+    {
+      image: "https://source.unsplash.com/1024x768/?tree",
+      title: "Water Tree",
+    },
+  ];
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+    <View style={{ flex: 1, margin: 10 }}>
+      <StatusBar style="auto" />
+      <SafeAreaView
+        style={{
+          flex: 1,
+          marginTop: Platform.OS === "android" ? 25 : 0,
+        }}
+      >
+        <View
+          style={{
+            flex: 1,
+            flexDirection: "column",
+            justifyContent: "flex-start",
+          }}
+        >
+          <View
+            style={{
+              flex: 0.06,
+              padding: 10,
+              borderBottomWidth: 1,
+              textAlign: "center",
+              justifyContent: "center",
+
+              borderBottomColor: "lightgray",
+            }}
+          >
+            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Home</Text>
+          </View>
+          <View
+            style={{
+              flex: 0.94,
+              justifyContent: "flex-start",
+            }}
+          >
+            <View
+              style={{
+                flex: 0.3,
+                justifyContent: "flex-start",
+                alignItems: "flex-start",
+              }}
+            >
+              <ScrollView
+                horizontal
+                contentContainerStyle={{
+                  justifyContent: "flex-start",
+                  alignItems: "flex-start",
+                }}
+                showsHorizontalScrollIndicator={false}
+                style={{
+                  alignContent: "center",
+                }}
+              >
+                {images.map((image, index) => (
+                  <TouchableOpacity
+                    key={index}
+                    style={{
+                      // marginTop: 10,
+                      flex: 1,
+                      width: "80%",
+                      height: 180,
+                      display: "flex",
+                      marginRight: 10,
+                      alignSelf: "center",
+                      borderRadius: 10,
+                    }}
+                  >
+                    <Image
+                      style={{
+                        borderRadius: 10,
+                        width: "100%",
+                        resizeMode: "cover",
+                      }}
+                      height={180}
+                      source={{
+                        uri: image.image,
+                      }}
+                    />
+                    <Text
+                      style={{
+                        fontFamily: "Roboto",
+                        fontSize: 12,
+                        margin: 10,
+                        marginTop: -50,
+                        width: 270,
+                        display: "wrap",
+                        fontWeight: "bold",
+                        color: "white",
+                        alignSelf: "flex-start",
+                      }}
+                    >
+                      {image.title}
+                    </Text>
+                  </TouchableOpacity>
+                ))}
+              </ScrollView>
+            </View>
+            <View
+              style={{
+                flex: 0.7,
+                // justifyContent: "center",
+                // alignItems: "center",
+              }}
+            >
+              <Text
+                style={{
+                  fontSize: 14,
+                  fontWeight: "bold",
+                }}
+              >
+                Recent Projects
+              </Text>
+
+              <ScrollView
+                showsHorizontalScrollIndicator={false}
+                horizontal
+                style={{
+                  flex: 1,
+                  marginTop: 10,
+                }}
+              >
+                {filterOptions.map((filterOption, index) => (
+                  <TouchableOpacity
+                    onPress={() => {
+                      console.log("Filter Option", filterOption);
+                      setChoosenFilter(filterOption.name);
+                    }}
+                    key={index}
+                    style={{
+                      width: 100,
+                      height: 40,
+                      elevation: 5,
+                      shadowColor: "black",
+                      shadowOffset: { width: 0, height: 2 },
+                      shadowOpacity: 0.25,
+                      shadowRadius: 3.84,
+
+                      backgroundColor:
+                        filterOption.name === choosenFilter
+                          ? "#0098FF"
+                          : "white",
+                      borderRadius: 5,
+                      marginRight: 5,
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        color:
+                          filterOption.name === choosenFilter
+                            ? "white"
+                            : "grey",
+                        fontSize: 12,
+                        fontWeight: "500",
+                      }}
+                    >
+                      {filterOption.name}
+                    </Text>
+                  </TouchableOpacity>
+                ))}
+              </ScrollView>
+              <ScrollView
+                showsVerticalScrollIndicator={false}
+                style={{
+                  flex: 1,
+                }}
+              >
+                <View
+                  style={{
+                    width: Dimensions.get("window").width - 20,
+                    height: 85,
+                    borderRadius: 6,
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "row",
+                    elevation: 5,
+                    shadowColor: "black",
+                    shadowOffset: { width: 0, height: 2 },
+                    shadowOpacity: 0.25,
+                    shadowRadius: 3.84,
+                    backgroundColor: "white",
+                  }}
+                >
+                  <View
+                    style={{
+                      flex: 0.23,
+                    }}
+                  >
+                    <Image
+                      style={{
+                        margin: 10,
+                        width: 70,
+                        height: 65,
+                        resizeMode: "cover",
+                        borderRadius: 6,
+                      }}
+                      source={{
+                        uri: "https://source.unsplash.com/1024x768/?nature",
+                      }}
+                    />
+                  </View>
+
+                  <View
+                    style={{
+                      flex: 0.6,
+                      padding: 10,
+                      display: "flex",
+                      flexDirection: "column",
+                      // justifyContent: "center",
+                      alignItems: "flex-start",
+                    }}
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={{ fontSize: 14, fontWeight: "600" }}
+                    >
+                      Project Name
+                    </Text>
+                    <Text
+                      numberOfLines={1}
+                      style={{ fontSize: 10, fontWeight: "500" }}
+                    >
+                      Release Date: 12th May 2024
+                    </Text>
+
+                    <Text
+                      numberOfLines={1}
+                      style={{ fontSize: 10, fontWeight: "500" }}
+                    >
+                      Interact Club of L.R.I
+                    </Text>
+                    <Text
+                      numberOfLines={1}
+                      style={{ fontSize: 10, fontWeight: "500" }}
+                    >
+                      Project Genre: Community Project
+                    </Text>
+                  </View>
+                </View>
+              </ScrollView>
+            </View>
+          </View>
+        </View>
+      </SafeAreaView>
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-  },
-});
+const styles = StyleSheet.create({});
