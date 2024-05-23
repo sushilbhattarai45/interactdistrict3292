@@ -43,11 +43,12 @@ export default function HomeScreen() {
   ];
 
   return (
-    <View style={{ flex: 1, margin: 10 }}>
+    <View style={{ flex: 1, backgroundColor: "white" }}>
       <StatusBar style="auto" />
       <SafeAreaView
         style={{
           flex: 1,
+          margin: 10,
           marginTop: Platform.OS === "android" ? 25 : 0,
         }}
       >
@@ -60,16 +61,17 @@ export default function HomeScreen() {
         >
           <View
             style={{
-              flex: 0.06,
+              flex: 0.04,
               padding: 10,
               borderBottomWidth: 1,
-              textAlign: "center",
               justifyContent: "center",
 
               borderBottomColor: "lightgray",
             }}
           >
-            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Home</Text>
+            <Text style={{ fontSize: 16, fontWeight: "bold" }}>
+              Interact District 3292
+            </Text>
           </View>
           <View
             style={{
@@ -101,7 +103,7 @@ export default function HomeScreen() {
                     style={{
                       // marginTop: 10,
                       flex: 1,
-                      width: "80%",
+                      width: Dimensions.get("window").width - 50,
                       height: 180,
                       display: "flex",
                       marginRight: 10,
@@ -127,7 +129,6 @@ export default function HomeScreen() {
                         margin: 10,
                         marginTop: -50,
                         width: 270,
-                        display: "wrap",
                         fontWeight: "bold",
                         color: "white",
                         alignSelf: "flex-start",
@@ -142,77 +143,103 @@ export default function HomeScreen() {
             <View
               style={{
                 flex: 0.7,
+                display: "flex",
+                flexDirection: "column",
+
                 // justifyContent: "center",
                 // alignItems: "center",
               }}
             >
-              <Text
+              <View
                 style={{
-                  fontSize: 14,
-                  fontWeight: "bold",
+                  flex: 0.1,
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
                 }}
               >
-                Recent Projects
-              </Text>
-
-              <ScrollView
-                showsHorizontalScrollIndicator={false}
-                horizontal
+                <Text
+                  style={{
+                    fontSize: 14,
+                    fontWeight: "bold",
+                  }}
+                >
+                  Recent Projects
+                </Text>
+              </View>
+              <View
                 style={{
-                  flex: 1,
-                  marginTop: 10,
+                  flex: 0.2,
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
                 }}
               >
-                {filterOptions.map((filterOption, index) => (
-                  <TouchableOpacity
-                    onPress={() => {
-                      console.log("Filter Option", filterOption);
-                      setChoosenFilter(filterOption.name);
-                    }}
-                    key={index}
-                    style={{
-                      width: 100,
-                      height: 40,
-                      elevation: 5,
-                      shadowColor: "black",
-                      shadowOffset: { width: 0, height: 2 },
-                      shadowOpacity: 0.25,
-                      shadowRadius: 3.84,
-
-                      backgroundColor:
-                        filterOption.name === choosenFilter
-                          ? "#0098FF"
-                          : "white",
-                      borderRadius: 5,
-                      marginRight: 5,
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <Text
+                <ScrollView
+                  showsHorizontalScrollIndicator={false}
+                  horizontal
+                  style={{
+                    height: 50,
+                    flex: 0.5,
+                    marginTop: 10,
+                  }}
+                >
+                  {filterOptions.map((filterOption, index) => (
+                    <TouchableOpacity
+                      onPress={() => {
+                        console.log("Filter Option", filterOption);
+                        setChoosenFilter(filterOption.name);
+                      }}
+                      key={index}
                       style={{
-                        color:
+                        width: 100,
+                        height: 40,
+                        elevation: 5,
+                        shadowColor: "black",
+                        shadowOffset: { width: 0, height: 2 },
+                        shadowOpacity: 0.25,
+                        shadowRadius: 3.84,
+
+                        backgroundColor:
                           filterOption.name === choosenFilter
-                            ? "white"
-                            : "grey",
-                        fontSize: 12,
-                        fontWeight: "500",
+                            ? "#0098FF"
+                            : "white",
+                        borderRadius: 5,
+                        marginRight: 5,
+                        justifyContent: "center",
+                        alignItems: "center",
                       }}
                     >
-                      {filterOption.name}
-                    </Text>
-                  </TouchableOpacity>
-                ))}
-              </ScrollView>
+                      <Text
+                        style={{
+                          color:
+                            filterOption.name === choosenFilter
+                              ? "white"
+                              : "grey",
+                          fontSize: 12,
+                          fontWeight: "500",
+                        }}
+                      >
+                        {filterOption.name}
+                      </Text>
+                    </TouchableOpacity>
+                  ))}
+                </ScrollView>
+              </View>
               <ScrollView
                 showsVerticalScrollIndicator={false}
                 style={{
-                  flex: 1,
+                  alignContent: "center",
+                  flex: 0.3,
                 }}
               >
                 <View
                   style={{
-                    width: Dimensions.get("window").width - 20,
+                    marginVertical: 10,
+                    alignSelf: "center",
+                    width: Dimensions.get("window").width - 30,
                     height: 85,
                     borderRadius: 6,
                     flex: 1,
