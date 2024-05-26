@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Image,
   StyleSheet,
@@ -11,8 +11,13 @@ import {
   Dimensions,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
+import ListProjectComponent from "../components/listprojects";
+import appColors from "../components/colors/colors";
+import axios from "axios";
+import { getProjects } from "../components/api/hitApi";
 
 export default function HomeScreen() {
+  const [projects, setProjects] = React.useState([]);
   const [choosenFilter, setChoosenFilter] = React.useState("All");
   const filterOptions = [
     { name: "All", value: "All" },
@@ -41,6 +46,16 @@ export default function HomeScreen() {
       title: "Water Tree",
     },
   ];
+
+  useEffect(() => {
+    getProjectsInfo();
+  }, []);
+
+  async function getProjectsInfo() {
+    let projectss = await getProjects();
+    setProjects(projectss);
+    // console.log("Projects", projects);
+  }
 
   return (
     <View style={{ flex: 1, backgroundColor: "white" }}>
@@ -183,7 +198,7 @@ export default function HomeScreen() {
                   style={{
                     height: 50,
                     flex: 0.5,
-                    marginTop: 10,
+                    // marginTop: 10,
                   }}
                 >
                   {filterOptions.map((filterOption, index) => (
@@ -197,15 +212,15 @@ export default function HomeScreen() {
                         width: 100,
                         height: 40,
                         elevation: 5,
-                        shadowColor: "black",
-                        shadowOffset: { width: 0, height: 2 },
+                        shadowColor: appColors.blue,
+                        shadowOffset: { width: 4, height: 4 },
                         shadowOpacity: 0.25,
                         shadowRadius: 3.84,
 
                         backgroundColor:
                           filterOption.name === choosenFilter
-                            ? "#0098FF"
-                            : "white",
+                            ? appColors.purple
+                            : appColors.white,
                         borderRadius: 5,
                         marginRight: 5,
                         justifyContent: "center",
@@ -216,8 +231,8 @@ export default function HomeScreen() {
                         style={{
                           color:
                             filterOption.name === choosenFilter
-                              ? "white"
-                              : "grey",
+                              ? appColors.white
+                              : appColors.black,
                           fontSize: 12,
                           fontWeight: "500",
                         }}
@@ -235,80 +250,16 @@ export default function HomeScreen() {
                   flex: 0.3,
                 }}
               >
-                <View
-                  style={{
-                    marginVertical: 10,
-                    alignSelf: "center",
-                    width: Dimensions.get("window").width - 30,
-                    height: 85,
-                    borderRadius: 6,
-                    flex: 1,
-                    display: "flex",
-                    flexDirection: "row",
-                    elevation: 5,
-                    shadowColor: "black",
-                    shadowOffset: { width: 0, height: 2 },
-                    shadowOpacity: 0.25,
-                    shadowRadius: 3.84,
-                    backgroundColor: "white",
-                  }}
-                >
-                  <View
-                    style={{
-                      flex: 0.23,
-                    }}
-                  >
-                    <Image
-                      style={{
-                        margin: 10,
-                        width: 70,
-                        height: 65,
-                        resizeMode: "cover",
-                        borderRadius: 6,
-                      }}
-                      source={{
-                        uri: "https://source.unsplash.com/1024x768/?nature",
-                      }}
-                    />
-                  </View>
-
-                  <View
-                    style={{
-                      flex: 0.6,
-                      padding: 10,
-                      display: "flex",
-                      flexDirection: "column",
-                      // justifyContent: "center",
-                      alignItems: "flex-start",
-                    }}
-                  >
-                    <Text
-                      numberOfLines={1}
-                      style={{ fontSize: 14, fontWeight: "600" }}
-                    >
-                      Project Name
-                    </Text>
-                    <Text
-                      numberOfLines={1}
-                      style={{ fontSize: 10, fontWeight: "500" }}
-                    >
-                      Release Date: 12th May 2024
-                    </Text>
-
-                    <Text
-                      numberOfLines={1}
-                      style={{ fontSize: 10, fontWeight: "500" }}
-                    >
-                      Interact Club of L.R.I
-                    </Text>
-                    <Text
-                      numberOfLines={1}
-                      style={{ fontSize: 10, fontWeight: "500" }}
-                    >
-                      Project Genre: Community Project
-                    </Text>
-                  </View>
-                </View>
+                {projects.map((project: any, index) => (
+                  <ListProjectComponent
+                    key={index}
+                    data={project}
+                    // choosenFilter={choosenFilter}
+                  />
+                ))}
+                {/* {projects.map((project: any, index) => (
+                  <Text>{project.title.rendered}</Text>
+                ))} */}
               </ScrollView>
             </View>
           </View>
