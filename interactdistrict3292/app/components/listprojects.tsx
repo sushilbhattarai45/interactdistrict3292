@@ -9,6 +9,7 @@ import {
   Feather,
   MaterialIcons,
 } from "@expo/vector-icons";
+
 import moment from "moment";
 type Props = {
   data: {

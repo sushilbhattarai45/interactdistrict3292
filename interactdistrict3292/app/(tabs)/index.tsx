@@ -9,12 +9,14 @@ import {
   SafeAreaView,
   TouchableOpacity,
   Dimensions,
+  FlatList,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import ListProjectComponent from "../components/listprojects";
 import appColors from "../components/colors/colors";
 import axios from "axios";
 import { getProjects } from "../components/api/hitApi";
+import SearchBar from "../components/searchBar";
 
 export default function HomeScreen() {
   const [projects, setProjects] = React.useState([]);
@@ -101,7 +103,55 @@ export default function HomeScreen() {
                 alignItems: "flex-start",
               }}
             >
-              <ScrollView
+              <FlatList
+                initialNumToRender={10}
+                showsHorizontalScrollIndicator={false}
+                horizontal
+                data={projects}
+                renderItem={({ item, index }) => (
+                  <TouchableOpacity
+                    key={index}
+                    style={{
+                      // marginTop: 10,
+                      flex: 1,
+                      width: Dimensions.get("window").width - 50,
+                      height: 180,
+                      display: "flex",
+                      marginRight: 10,
+                      alignSelf: "center",
+                      borderRadius: 10,
+                    }}
+                  >
+                    <Image
+                      style={{
+                        borderRadius: 10,
+                        width: "100%",
+                        resizeMode: "cover",
+                      }}
+                      height={180}
+                      source={{
+                        uri: item.featured_image_urls.full[0],
+                      }}
+                    />
+                    <Text
+                      style={{
+                        fontFamily: "Roboto",
+                        fontSize: 12,
+                        margin: 10,
+                        marginTop: -50,
+                        width: 270,
+                        fontWeight: "bold",
+                        color: "white",
+                        alignSelf: "flex-start",
+                      }}
+                    >
+                      {item.title.rendered}
+                    </Text>
+                  </TouchableOpacity>
+                )}
+                keyExtractor={(item, index) => index.toString()}
+              />
+              {/* <ScrollView
                 horizontal
                 contentContainerStyle={{
                   justifyContent: "flex-start",
@@ -153,7 +203,7 @@ export default function HomeScreen() {
                     </Text>
                   </TouchableOpacity>
                 ))}
-              </ScrollView>
+              </ScrollView> */}
             </View>
             <View
               style={{
@@ -168,6 +218,7 @@ export default function HomeScreen() {
               <View
                 style={{
                   flex: 0.1,
+                  marginBottom: 5,
                   display: "flex",
                   flexDirection: "row",
                   justifyContent: "space-between",
@@ -182,6 +233,19 @@ export default function HomeScreen() {
                 >
                   Recent Projects
                 </Text>
+              </View>
+
+              <View
+                style={{
+                  flex: 0.2,
+                  marginBottom: 10,
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <SearchBar />
               </View>
               <View
                 style={{
@@ -219,7 +283,7 @@ export default function HomeScreen() {
 
                         backgroundColor:
                           filterOption.name === choosenFilter
-                            ? appColors.purple
+                            ? appColors.blue
                             : appColors.white,
                         borderRadius: 5,
                         marginRight: 5,
@@ -250,13 +314,14 @@ export default function HomeScreen() {
                   flex: 0.3,
                 }}
               >
-                {projects.map((project: any, index) => (
-                  <ListProjectComponent
-                    key={index}
-                    data={project}
-                    // choosenFilter={choosenFilter}
-                  />
-                ))}
+                <FlatList
+                  initialNumToRender={10}
+                  data={projects}
+                  renderItem={({ item, index }) => (
+                    <ListProjectComponent data={item} />
+                  )}
+                  keyExtractor={(item, index) => index.toString()}
+                />
                 {/* {projects.map((project: any, index) => (
                   <Text>{project.title.rendered}</Text>
                 ))} */}
