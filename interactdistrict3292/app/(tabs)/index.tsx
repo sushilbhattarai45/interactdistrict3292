@@ -80,7 +80,7 @@ export default function HomeScreen() {
           <Header />
           <View
             style={{
-              flex: 0.94,
+              flex: 1,
               justifyContent: "flex-start",
             }}
           >
@@ -269,6 +269,7 @@ export default function HomeScreen() {
                 style={{
                   flex: 0.1,
                   marginBottom: 5,
+                  marginLeft: 5,
                   display: "flex",
                   flexDirection: "row",
                   justifyContent: "space-between",
