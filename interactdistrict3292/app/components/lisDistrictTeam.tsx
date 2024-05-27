@@ -13,62 +13,55 @@ import {
 import moment from "moment";
 type Props = {
   data: {
-    title: {
-      rendered: string;
-    };
-    date: string;
+    name: string;
+    email: string;
     club: string;
-    type: string;
-    featured_image_urls: {
-      thumbnail: [string, number, number, boolean];
-    };
+    post: string;
+    image: string;
   };
 };
-export default function ListProjectComponent(props: Props) {
+export default function ListTeamComponent(props: Props) {
   return (
     <View
       style={{
-        marginBottom: 3,
+        marginBottom: 6,
         alignSelf: "center",
         width: Dimensions.get("window").width - 30,
-        // height: 85,
+        height: 85,
         borderRadius: 6,
         flex: 1,
         display: "flex",
         flexDirection: "row",
         elevation: 5,
-        shadowColor: appColors.purple,
+        shadowColor: appColors.blue,
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
-        padding: 5,
-        backgroundColor: appColors.white,
+        backgroundColor: "white",
       }}
     >
       <View
         style={{
-          justifyContent: "center",
-          alignContent: "center",
-          flex: 0.3,
+          flex: 0.23,
         }}
       >
         <Image
           style={{
-            // margin: 10,
-            width: 90,
-            height: "90%",
+            margin: 10,
+            width: 70,
+            height: 65,
             resizeMode: "cover",
             borderRadius: 6,
           }}
           source={{
-            uri: props.data.featured_image_urls.thumbnail[0],
+            uri: props.data.image,
           }}
         />
       </View>
 
       <View
         style={{
-          flex: 0.6,
+          flex: 0.7,
           padding: 10,
           display: "flex",
           flexDirection: "column",
@@ -79,13 +72,14 @@ export default function ListProjectComponent(props: Props) {
         <Text
           numberOfLines={1}
           style={{
-            fontSize: 15,
+            fontSize: 14,
+
             color: appColors.black,
             fontWeight: "600",
             width: "100%",
           }}
         >
-          {props.data.title.rendered}
+          {props.data.name}
         </Text>
         <View
           style={{
@@ -95,17 +89,17 @@ export default function ListProjectComponent(props: Props) {
             alignItems: "center",
           }}
         >
-          <Ionicons name="time-outline" size={12} color={appColors.purple} />
+          <Ionicons name="time-outline" size={12} color={appColors.blue} />
           <Text
             numberOfLines={1}
             style={{
               color: appColors.grey,
-              fontSize: 12,
+              fontSize: 10,
               marginLeft: 10,
               fontWeight: "500",
             }}
           >
-            Release Date: {moment(props.data.date).format("Do MMMM YYYY")}
+            {props.data.post}
           </Text>
         </View>
 
@@ -118,17 +112,39 @@ export default function ListProjectComponent(props: Props) {
             alignItems: "center",
           }}
         >
-          <Feather name="user" size={12} color={appColors.purple} />
+          <Feather name="user" size={12} color={appColors.blue} />
           <Text
             numberOfLines={1}
             style={{
               color: appColors.grey,
-              fontSize: 12,
+              fontSize: 10,
               marginLeft: 10,
               fontWeight: "500",
             }}
           >
-            Club: Interact Club of XYZ
+            {props.data.club}{" "}
+          </Text>
+        </View>
+        <View
+          style={{
+            // marginTop: 5,
+            justifyContent: "center",
+            flexDirection: "row",
+            alignContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Feather name="user" size={12} color={appColors.blue} />
+          <Text
+            numberOfLines={1}
+            style={{
+              color: appColors.grey,
+              fontSize: 10,
+              marginLeft: 10,
+              fontWeight: "500",
+            }}
+          >
+            Type: Community
           </Text>
         </View>
       </View>

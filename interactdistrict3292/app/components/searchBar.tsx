@@ -26,7 +26,7 @@ export default function SearchBar({}) {
         onChangeText={(text) => {
           console.log("text", text);
         }}
-        placeholder={"Search Vehicles"}
+        placeholder={"Search Projects"}
         style={{
           width: "85%",
           height: 50,
