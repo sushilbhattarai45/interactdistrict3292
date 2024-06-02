@@ -28,8 +28,8 @@ export default function Teams() {
     {
       name: "Itr. Aman Singh",
       email: "xyz@gmail.com",
-      club: "Rotaract Club of Delhi Technological University",
-      post: "President",
+      club: "Interact Club of Delhi Public School, R.K. Puram",
+      post: "District Information Technology Officer Head",
       image:
         "https://interactnepal.org/wp-content/uploads/2023/07/Sushil-Bhattarai-768x768.jpg",
     },

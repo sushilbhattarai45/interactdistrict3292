@@ -144,7 +144,7 @@ export default function ListTeamComponent(props: Props) {
               fontWeight: "500",
             }}
           >
-            Type: Community
+            {props.data.email}
           </Text>
         </View>
       </View>

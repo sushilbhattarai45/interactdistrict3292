@@ -1,7 +1,7 @@
 import { Tabs } from "expo-router";
 import React from "react";
-
-import { TabBarIcon } from "@/components/navigation/TabBarIcon";
+import { Image } from "react-native";
+import { FontAwesome } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
 import { useColorScheme } from "@/hooks/useColorScheme";
 
@@ -13,6 +13,8 @@ export default function TabLayout() {
       screenOptions={{
         // tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
+        tabBarStyle: {},
+        tabBarShowLabel: false,
       }}
     >
       <Tabs.Screen
@@ -20,9 +22,14 @@ export default function TabLayout() {
         options={{
           title: "Home",
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon
-              name={focused ? "home" : "home-outline"}
-              color={color}
+            <Image
+              source={require("../../assets/images/interact-wheel.png")}
+              style={{
+                width: 30,
+                height: 30,
+                alignContent: "center",
+                resizeMode: "cover",
+              }}
             />
           ),
         }}
@@ -32,22 +39,7 @@ export default function TabLayout() {
         options={{
           title: "Teams",
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon
-              name={focused ? "home" : "home-outline"}
-              color={color}
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: "Explore",
-          tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon
-              name={focused ? "code-slash" : "code-slash-outline"}
-              color={color}
-            />
+            <FontAwesome name="group" size={24} color={color} />
           ),
         }}
       />

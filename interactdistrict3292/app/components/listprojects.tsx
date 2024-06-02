@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, Dimensions } from "react-native";
+import { View, Text, Image, Dimensions, Pressable } from "react-native";
 import appColors from "./colors/colors";
 import {
   Fontisto,
@@ -11,6 +11,7 @@ import {
 } from "@expo/vector-icons";
 
 import moment from "moment";
+import { router } from "expo-router";
 type Props = {
   data: {
     title: {
@@ -26,7 +27,10 @@ type Props = {
 };
 export default function ListProjectComponent(props: Props) {
   return (
-    <View
+    <Pressable
+      onPress={() => {
+        router.push("screens/viewProject");
+      }}
       style={{
         marginBottom: 3,
         alignSelf: "center",
@@ -79,6 +83,7 @@ export default function ListProjectComponent(props: Props) {
         <Text
           numberOfLines={1}
           style={{
+            fontFamily: "Roboto",
             fontSize: 15,
             color: appColors.black,
             fontWeight: "600",
@@ -132,6 +137,6 @@ export default function ListProjectComponent(props: Props) {
           </Text>
         </View>
       </View>
-    </View>
+    </Pressable>
   );
 }

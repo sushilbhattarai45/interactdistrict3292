@@ -175,7 +175,7 @@ export default function HomeScreen() {
                       }}
                       height={180}
                       source={{
-                        uri: item.featured_image_urls.full[0],
+                        uri: item?.featured_image_urls?.full[0],
                       }}
                     />
                     <Text
