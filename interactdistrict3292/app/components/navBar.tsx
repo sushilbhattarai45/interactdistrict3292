@@ -9,7 +9,7 @@ type Props = {
   name: string;
 };
 
-export default function NavBar(props) {
+export default function NavBar(props: Props) {
   return (
     <View style={{ zIndex: 1, flex: 1 }}>
       <SafeAreaView style={{ flex: 1 }}>
