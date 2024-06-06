@@ -5,6 +5,7 @@ import { FlatList, Image, SafeAreaView, Text, View } from "react-native";
 import ListTeamComponent from "../components/lisDistrictTeam";
 import Header from "../components/header";
 import appColors from "../components/colors/colors";
+import TeamData from "../components/teamsJson.json";
 
 export default function Teams() {
   const [spinValue] = useState(new Animated.Value(0));
@@ -23,25 +24,6 @@ export default function Teams() {
   useEffect(() => {
     startAnimation();
   }, []);
-
-  const myTeam = [
-    {
-      name: "Itr. Aman Singh",
-      email: "xyz@gmail.com",
-      club: "Interact Club of Delhi Public School, R.K. Puram",
-      post: "District Information Technology Officer Head",
-      image:
-        "https://interactnepal.org/wp-content/uploads/2023/07/Sushil-Bhattarai-768x768.jpg",
-    },
-    {
-      name: "Itr. Aman Singh",
-      email: "adsa@g.com",
-      club: "Rotaract Club of Delhi Technological University",
-      post: "President",
-      image:
-        "https://interactnepal.org/wp-content/uploads/2022/11/viber_image_2022-08-31_13-43-03-978-500x500.jpg",
-    },
-  ];
 
   return (
     <View style={{ flex: 1 }}>
@@ -118,7 +100,9 @@ export default function Teams() {
               </View>
             </View>
             <FlatList
-              data={myTeam}
+              showsVerticalScrollIndicator={false}
+              data={TeamData}
+              initialNumToRender={10}
               renderItem={({ item }) => <ListTeamComponent data={item} />}
             />
           </View>
