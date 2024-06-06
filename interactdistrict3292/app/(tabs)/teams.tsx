@@ -49,7 +49,6 @@ export default function Teams() {
         style={{
           flex: 1,
           margin: 10,
-          marginTop: Platform.OS === "android" ? 25 : 0,
         }}
       >
         <View
