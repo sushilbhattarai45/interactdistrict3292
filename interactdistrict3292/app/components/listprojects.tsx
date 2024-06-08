@@ -3,13 +3,13 @@ import { View, Text, Image, Dimensions, Pressable } from "react-native";
 import appColors from "./colors/colors";
 import {
     Ionicons,
-    Feather,
 } from "@expo/vector-icons";
 
 import moment from "moment";
 import { router } from "expo-router";
 type Props = {
     data: {
+        id: number;
         title: {
             rendered: string;
         };
@@ -22,10 +22,16 @@ type Props = {
     };
 };
 export default function ListProjectComponent(props: Props) {
+
     return (
         <Pressable
             onPress={() => {
-                router.push("screens/viewProject");
+                router.push({
+                    pathname: "screens/viewProject",
+                    params: {
+                        id: props.data.id,
+                    },
+                });
             }}
             style={{
                 alignSelf: "center",
@@ -62,10 +68,9 @@ export default function ListProjectComponent(props: Props) {
                     numberOfLines={2}
                     style={{
                         fontFamily: "Roboto",
-                        fontSize: 18,
+                        fontSize: 16,
                         color: appColors.black,
                         fontWeight: "bold",
-                        letterSpacing: 1.005,
                     }}
                 >
                     {props.data.title.rendered}
@@ -88,13 +93,12 @@ export default function ListProjectComponent(props: Props) {
                         marginTop: 8,
                     }}
                 >
-                    <Ionicons name="time" size={14} color={appColors.grey} />
+                    <Ionicons name="time-outline" size={14} color={appColors.grey} />
                     <Text
                         numberOfLines={1}
                         style={{
                             color: appColors.grey,
                             fontSize: 12,
-                            fontWeight: "500",
                         }}
                     >
                         {moment(props.data.date).fromNow()}

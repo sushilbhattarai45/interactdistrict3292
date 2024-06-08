@@ -11,6 +11,7 @@ import {
     Dimensions,
     FlatList,
     Pressable,
+    StatusBar as RNStatusBar
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import ListProjectComponent from "../components/listprojects";
@@ -47,14 +48,14 @@ export default function HomeScreen() {
                 backgroundColor: "white"
             }}
         >
-            <StatusBar backgroundColor="#fff" />
+            <StatusBar backgroundColor="#fff" style="dark" />
             <ScrollView
                 stickyHeaderIndices={[2]}
                 style={{
                     flex: 1,
 
                     padding: 10,
-                    paddingTop: Platform.OS === "android" ? 25 : 0,
+                    paddingTop: Platform.OS === "android" ? RNStatusBar.currentHeight : 0,
                 }}>
                 <Header />
                 <View
@@ -141,7 +142,6 @@ export default function HomeScreen() {
                                     style={{
                                         paddingHorizontal: 20,
                                         paddingVertical: 10,
-                                        elevation: 5,
                                         backgroundColor:
                                             filterOption.name === choosenFilter
                                                 ? appColors.blue
