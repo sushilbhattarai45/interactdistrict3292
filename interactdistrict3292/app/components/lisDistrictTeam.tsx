@@ -13,11 +13,18 @@ import {
 import moment from "moment";
 type Props = {
   data: {
-    name: string;
-    email: string;
-    club: string;
-    post: string;
-    image: string;
+    content: {
+      rendered: string;
+    };
+
+    title: {
+      rendered: string;
+    };
+    // _links: {
+    //   self: {
+    //     href: string;
+    //   }[];
+    // };
   };
 };
 export default function ListTeamComponent(props: Props) {
@@ -45,7 +52,7 @@ export default function ListTeamComponent(props: Props) {
           flex: 0.23,
         }}
       >
-        <Image
+        {/* <Image
           style={{
             margin: 10,
             width: 70,
@@ -54,9 +61,9 @@ export default function ListTeamComponent(props: Props) {
             borderRadius: 6,
           }}
           source={{
-            uri: props.data.image,
+            uri: props.data._links.self[0].href,
           }}
-        />
+        /> */}
       </View>
 
       <View
@@ -79,7 +86,7 @@ export default function ListTeamComponent(props: Props) {
             width: "100%",
           }}
         >
-          {props.data.name}
+          {props.data?.title?.rendered}
         </Text>
         <View
           style={{
@@ -99,7 +106,7 @@ export default function ListTeamComponent(props: Props) {
               fontWeight: "500",
             }}
           >
-            {props.data.post}
+            {/* {props.data.post} */}
           </Text>
         </View>
 
@@ -122,7 +129,7 @@ export default function ListTeamComponent(props: Props) {
               fontWeight: "500",
             }}
           >
-            {props.data.club}{" "}
+            {props.data?.content?.rendered}{" "}
           </Text>
         </View>
         <View
@@ -144,7 +151,7 @@ export default function ListTeamComponent(props: Props) {
               fontWeight: "500",
             }}
           >
-            {props.data.email}
+            {/* {props.data.email} */}
           </Text>
         </View>
       </View>
