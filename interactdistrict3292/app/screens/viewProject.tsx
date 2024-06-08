@@ -6,12 +6,12 @@ import {
     Image,
     ScrollView,
     Dimensions,
+    StatusBar,
 } from "react-native";
 import NavBar from "../components/navBar";
 import { getProject } from "../components/api/hitApi";
 import RenderHTML from "react-native-render-html";
 import { useLocalSearchParams } from "expo-router";
-import { StatusBar } from "expo-status-bar";
 import appColors from "../components/colors/colors";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -186,7 +186,6 @@ const ViewProject = () => {
                 </View>
             </ScrollView>
 
-            <StatusBar backgroundColor="#fff" style="dark" />
         </View>
     );
 };

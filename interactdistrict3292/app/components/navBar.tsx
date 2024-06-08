@@ -20,6 +20,8 @@ export default function NavBar() {
             position: "absolute",
             top: StatusBar.currentHeight,
         }}>
+
+            <StatusBar backgroundColor="#000000" style="light" />
             <Pressable
                 onPress={() => {
                     router.back();

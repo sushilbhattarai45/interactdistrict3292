@@ -48,7 +48,7 @@ export default function HomeScreen() {
                 backgroundColor: "white"
             }}
         >
-            <StatusBar backgroundColor="#fff" style="dark" />
+            <RNStatusBar backgroundColor="#fff" barStyle='dark-content' />
             <ScrollView
                 stickyHeaderIndices={[2]}
                 style={{
