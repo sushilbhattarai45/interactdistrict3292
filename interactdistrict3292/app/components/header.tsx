@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image, Dimensions, Platform } from "react-native";
 import appColors from "./colors/colors";
+import * as Constants from "expo-constants";
 export default function Header() {
   return (
     <View
