@@ -13,7 +13,6 @@ import { getProject } from "../components/api/hitApi";
 import RenderHTML from "react-native-render-html";
 import { useLocalSearchParams } from "expo-router";
 import appColors from "../components/colors/colors";
-import { SafeAreaView } from "react-native-safe-area-context";
 
 type Project = {
     id: number;
@@ -103,7 +102,6 @@ const ViewProject = () => {
                         position: "relative",
                     }}
                 >
-
                     <NavBar />
                     <View
                         style={{

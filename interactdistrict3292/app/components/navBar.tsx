@@ -1,13 +1,8 @@
 import React from "react";
 import { Pressable, Text, View, StatusBar, SafeAreaView } from "react-native";
-import { Link, useRouter } from "expo-router";
+import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import * as Constants from "expo-constants";
-import { router } from "expo-router";
-import { Platform } from "react-native";
-type Props = {
-    name: string;
-};
+
 
 export default function NavBar() {
     const router = useRouter();
@@ -20,8 +15,6 @@ export default function NavBar() {
             position: "absolute",
             top: StatusBar.currentHeight,
         }}>
-
-            <StatusBar backgroundColor="#000000" style="light" />
             <Pressable
                 onPress={() => {
                     router.back();
