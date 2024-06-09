@@ -100,6 +100,10 @@ export default function Teams() {
               </View>
             </View>
             <FlatList
+              style={{
+                marginBottom: 130,
+                zIndex: 1,
+              }}
               showsVerticalScrollIndicator={false}
               data={TeamData}
               initialNumToRender={10}
