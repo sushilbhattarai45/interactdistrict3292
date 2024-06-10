@@ -9,12 +9,77 @@ import {
   Dimensions,
   Animated,
   ScrollView,
+  Pressable,
+  Linking,
 } from "react-native";
 import Header from "../components/header";
 import appColors from "../components/colors/colors";
 import { Entypo } from "@expo/vector-icons";
 const Resources = () => {
   const [spinValue] = useState(new Animated.Value(0));
+
+  const resources = [
+    {
+      title: "Standard Interact Club Constitution",
+      description: "(For Interact Clubs)",
+      url:
+        "https://interactnepal.org/wp-content/uploads/2023/09/656_interact_club_standard_constitution_en-1.pdf",
+    },
+    {
+      title: "Recommended Interact Club Bylaws",
+      description: "(For Interact Clubs)",
+      url:
+        "http://interactnepal.org/wp-content/uploads/2023/09/657_interact_club_recommended_bylaws_en-3-1.docx",
+    },
+    {
+      title: "Charter Ceremony Format",
+      description: "(For Interact Clubs)",
+      url:
+        "http://interactnepal.org/wp-content/uploads/2023/09/Charter-Ceremony-Format.pdf",
+    },
+    {
+      title: "Example Minutes",
+      description: "(For Secreatry)",
+      url:
+        "http://interactnepal.org/wp-content/uploads/2023/09/Example-Minutes.pdf",
+    },
+    {
+      title: "Event Report Format",
+      description: "(For Secreatry)",
+      url:
+        "http://interactnepal.org/wp-content/uploads/2023/09/Event-Report-Format-2023-24.pdf",
+    },
+    {
+      title: "Example Report",
+      description: "(For Secreatry)",
+      url:
+        "http://interactnepal.org/wp-content/uploads/2022/09/CLub-Installation-Proper-Format.pdf",
+    },
+    {
+      title: "Letterhead Example",
+      description: "(For Interact Clubs)",
+      url:
+        "https://docs.google.com/document/d/1Fwm4bMX8LyMWq7hRGyIn9npDk3JpcmfA/edit?usp=sharing&ouid=107204186249707484312&rtpof=true&sd=true",
+    },
+    {
+      title: "Vibrant Club Calculator",
+      description: "(For Interact Clubs)",
+      url:
+        "https://docs.google.com/spreadsheets/d/1qlEUlNEKakMlBd5BvIofbZYYCMLkX3K9/edit?usp=sharing&ouid=107204186249707484312&rtpof=true&sd=true",
+    },
+    {
+      title: "Meeting Minutes Example",
+      description: "(For Interact Clubs)",
+      url:
+        "http://interactnepal.org/wp-content/uploads/2023/09/Meeting-minutes-Final.pdf",
+    },
+    {
+      title: "District Logos",
+      description: "(For Interact Clubs)",
+      url:
+        "https://drive.google.com/drive/folders/1Hzj5TGYSfsgBvJpXXi54slkrFvmi939j?usp=sharing",
+    },
+  ];
 
   const startAnimation = () => {
     Animated.loop(
@@ -113,566 +178,67 @@ const Resources = () => {
                 padding: 10,
               }}
             >
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
+              {resources.map((resource, index) => (
                 <View
                   style={{
-                    flex: 0.8,
+                    backgroundColor: appColors.white,
+                    elevation: 5,
+                    shadowColor: appColors.blue,
+                    shadowOffset: { width: 5, height: 2 },
+                    shadowOpacity: 0.25,
+                    shadowRadius: 3.84,
+                    borderRadius: 6,
+                    flexDirection: "row",
+                    height: 60,
+                    padding: 10,
+                    marginBottom: 10,
                   }}
                 >
-                  <Text
+                  <View
                     style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
+                      flex: 0.8,
                     }}
                   >
-                    Standard Interact Club Constitution
-                  </Text>
-                  <View>
                     <Text
                       style={{
                         marginLeft: 6,
-                        fontSize: 12,
+                        fontSize: 14,
+                        fontWeight: "600",
                         color: appColors.grey,
                       }}
                     >
-                      (For Interact Clubs)
+                      {resource.title}{" "}
                     </Text>
+                    <View>
+                      <Text
+                        style={{
+                          marginLeft: 6,
+                          fontSize: 12,
+                          color: appColors.grey,
+                        }}
+                      >
+                        {resource.description}{" "}
+                      </Text>
+                    </View>
                   </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
+                  <Pressable
+                    onPress={() => {
+                      Linking.openURL(resource.url);
+                    }}
                     style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
+                      flex: 0.2,
+                      position: "absolute",
+                      justifyContent: "center",
+                      alignContent: "center",
+                      alignItems: "center",
+                      right: 10,
+                      padding: 10,
                     }}
                   >
-                    Recommended Interact Club Bylaws
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Interact Clubs)
-                    </Text>
-                  </View>
+                    <Entypo name="download" size={18} color={appColors.blue} />
+                  </Pressable>
                 </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Charter Ceremony Format
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Interact Clubs)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Example Minutes
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Secreatry)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Event Report Format
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Secreatry)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Example Report
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Secreatry)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Letterhead Example
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Interact Clubs)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Vibrant Club Calculator
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Interact Clubs)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    Meeting Minutes Example
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Interact Clubs)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
-              <View
-                style={{
-                  backgroundColor: appColors.white,
-                  elevation: 5,
-                  shadowColor: appColors.blue,
-                  shadowOffset: { width: 5, height: 2 },
-                  shadowOpacity: 0.25,
-                  shadowRadius: 3.84,
-                  borderRadius: 6,
-                  flexDirection: "row",
-                  height: 60,
-                  padding: 10,
-                  marginBottom: 10,
-                }}
-              >
-                <View
-                  style={{
-                    flex: 0.8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      marginLeft: 6,
-                      fontSize: 14,
-                      fontWeight: "600",
-                      color: appColors.grey,
-                    }}
-                  >
-                    District Logos
-                  </Text>
-                  <View>
-                    <Text
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 12,
-                        color: appColors.grey,
-                      }}
-                    >
-                      (For Interact Clubs)
-                    </Text>
-                  </View>
-                </View>
-                <View
-                  style={{
-                    flex: 0.2,
-                    position: "absolute",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
-                    right: 10,
-                    padding: 10,
-                  }}
-                >
-                  <Entypo name="download" size={18} color={appColors.blue} />
-                </View>
-              </View>
+              ))}
             </ScrollView>
           </View>
         </View>
