@@ -94,10 +94,9 @@ export default function ListTeamComponent(props: Props) {
             <Text
               numberOfLines={1}
               style={{
-                fontSize: 16,
-
-                color: appColors.black,
-                fontWeight: "600",
+                fontSize: 15,
+                color: appColors.grey,
+                fontWeight: "800",
                 width: "100%",
               }}
             >
@@ -127,7 +126,7 @@ export default function ListTeamComponent(props: Props) {
             style={{
               color: appColors.grey,
               fontSize: 12,
-              fontWeight: "500",
+              fontWeight: "400",
             }}
           >
             District Information Technology Officer
