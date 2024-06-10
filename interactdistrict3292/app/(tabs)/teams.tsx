@@ -1,4 +1,10 @@
-import { Animated, Easing, Dimensions, Platform } from "react-native";
+import {
+  Animated,
+  Easing,
+  Dimensions,
+  Platform,
+  StatusBar as RNStatusBar,
+} from "react-native";
 import Constants from "expo-constants";
 import React, { useEffect, useState } from "react";
 import { FlatList, Image, SafeAreaView, Text, View } from "react-native";
@@ -6,7 +12,6 @@ import ListTeamComponent from "../components/lisDistrictTeam";
 import Header from "../components/header";
 import appColors from "../components/colors/colors";
 import TeamData from "../components/teamsJson.json";
-
 export default function Teams() {
   const [spinValue] = useState(new Animated.Value(0));
 
@@ -30,12 +35,14 @@ export default function Teams() {
       <SafeAreaView
         style={{
           flex: 1,
-          margin: 10,
+          padding: 10,
         }}
       >
         <View
           style={{
             flex: 1,
+            paddingTop:
+              Platform.OS === "android" ? RNStatusBar.currentHeight : 0,
           }}
         >
           <Header />
@@ -101,7 +108,6 @@ export default function Teams() {
             </View>
             <FlatList
               style={{
-                marginBottom: 130,
                 zIndex: 1,
               }}
               showsVerticalScrollIndicator={false}

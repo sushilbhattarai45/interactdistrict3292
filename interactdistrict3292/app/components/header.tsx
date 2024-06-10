@@ -7,10 +7,10 @@ export default function Header() {
     <View
       style={{
         paddingBottom: 12,
-        marginTop:
-          Platform.OS === "android"
-            ? Dimensions.get("window").height * 0.04
-            : 0,
+        // marginTop:
+        //   Platform.OS === "android"
+        //     ? Dimensions.get("window").height * 0.04
+        //     : 0,
         borderBottomWidth: 0.3,
         display: "flex",
         flexDirection: "row",
