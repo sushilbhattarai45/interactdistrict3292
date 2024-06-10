@@ -8,6 +8,7 @@ import {
   MaterialCommunityIcons,
   Feather,
   MaterialIcons,
+  Entypo,
 } from "@expo/vector-icons";
 
 import moment from "moment";
@@ -34,7 +35,7 @@ export default function ListTeamComponent(props: Props) {
         marginBottom: 6,
         alignSelf: "center",
         width: Dimensions.get("window").width - 30,
-        height: 85,
+        height: 90,
         borderRadius: 6,
         flex: 1,
         display: "flex",
@@ -52,7 +53,7 @@ export default function ListTeamComponent(props: Props) {
           flex: 0.23,
         }}
       >
-        {/* <Image
+        <Image
           style={{
             margin: 10,
             width: 70,
@@ -60,10 +61,14 @@ export default function ListTeamComponent(props: Props) {
             resizeMode: "cover",
             borderRadius: 6,
           }}
+          // source={{
+          //   uri: props.data._links.self[0].href,
+          // }}
           source={{
-            uri: props.data._links.self[0].href,
+            uri:
+              "https://interactnepal.org/wp-content/uploads/2023/07/IMG_2747-scaled-e1692166948864.jpeg",
           }}
-        /> */}
+        />
       </View>
 
       <View
@@ -76,18 +81,39 @@ export default function ListTeamComponent(props: Props) {
           alignItems: "flex-start",
         }}
       >
-        <Text
-          numberOfLines={1}
+        <View
           style={{
-            fontSize: 14,
-
-            color: appColors.black,
-            fontWeight: "600",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
             width: "100%",
+            alignItems: "center",
           }}
         >
-          {props.data?.title?.rendered}
-        </Text>
+          <View>
+            <Text
+              numberOfLines={1}
+              style={{
+                fontSize: 16,
+
+                color: appColors.black,
+                fontWeight: "600",
+                width: "100%",
+              }}
+            >
+              {/* {props.data?.title?.rendered} */}
+              Sushil Bhattarai
+            </Text>
+          </View>
+          {/* <View
+            style={{
+              alignItems: "flex-end",
+            }}
+          >
+            <Entypo name="globe" size={12} color={appColors.blue} />
+          </View> */}
+        </View>
+
         <View
           style={{
             justifyContent: "center",
@@ -96,16 +122,15 @@ export default function ListTeamComponent(props: Props) {
             alignItems: "center",
           }}
         >
-          <Ionicons name="time-outline" size={12} color={appColors.blue} />
           <Text
             numberOfLines={1}
             style={{
               color: appColors.grey,
-              fontSize: 10,
-              marginLeft: 10,
+              fontSize: 12,
               fontWeight: "500",
             }}
           >
+            District Information Technology Officer
             {/* {props.data.post} */}
           </Text>
         </View>
@@ -119,18 +144,23 @@ export default function ListTeamComponent(props: Props) {
             alignItems: "center",
           }}
         >
-          <Feather name="user" size={12} color={appColors.blue} />
-          <Text
-            numberOfLines={1}
-            style={{
-              color: appColors.grey,
-              fontSize: 10,
-              marginLeft: 10,
-              fontWeight: "500",
-            }}
-          >
-            {props.data?.content?.rendered}{" "}
-          </Text>
+          <View>
+            <Entypo name="home" size={12} color={appColors.blue} />
+          </View>
+          <View>
+            <Text
+              numberOfLines={1}
+              style={{
+                color: appColors.grey,
+                fontSize: 12,
+                marginLeft: 10,
+                fontWeight: "500",
+              }}
+            >
+              Interact Club of Kalika
+              {/* {props.data?.content?.rendered}{" "} */}
+            </Text>
+          </View>
         </View>
         <View
           style={{
@@ -141,18 +171,23 @@ export default function ListTeamComponent(props: Props) {
             alignItems: "center",
           }}
         >
-          <Feather name="user" size={12} color={appColors.blue} />
-          <Text
-            numberOfLines={1}
-            style={{
-              color: appColors.grey,
-              fontSize: 10,
-              marginLeft: 10,
-              fontWeight: "500",
-            }}
-          >
-            {/* {props.data.email} */}
-          </Text>
+          <View style={{}}>
+            <Entypo name="mail" size={12} color={appColors.blue} />
+          </View>
+          <View style={{}}>
+            <Text
+              numberOfLines={1}
+              style={{
+                color: appColors.grey,
+                fontSize: 12,
+                marginLeft: 10,
+                fontWeight: "500",
+              }}
+            >
+              sushilbhattarai0054@gmail.com
+              {/* {props.data.email} */}
+            </Text>
+          </View>
         </View>
       </View>
     </View>
