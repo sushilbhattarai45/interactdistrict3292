@@ -17,7 +17,6 @@ type Props = {
     name: string;
     designation: string;
     mail: string;
-    phone: string;
     homeClub: string;
     image: string;
   };

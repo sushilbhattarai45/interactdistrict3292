@@ -66,8 +66,8 @@ export default function ListProjectComponent(props: Props) {
           style={{
             fontFamily: "Roboto",
             fontSize: 14,
-            color: appColors.black,
-            fontWeight: "bold",
+            color: appColors.grey,
+            fontWeight: "700",
           }}
         >
           {props.data.title.rendered}
