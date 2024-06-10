@@ -49,6 +49,7 @@ const Resources = () => {
 
           <View
             style={{
+              flex: 1,
               marginTop: 10,
             }}
           >
@@ -107,6 +108,7 @@ const Resources = () => {
             </View>
 
             <ScrollView
+              showsVerticalScrollIndicator={false}
               style={{
                 padding: 10,
               }}
@@ -139,7 +141,7 @@ const Resources = () => {
                       color: appColors.grey,
                     }}
                   >
-                    Event Report Format
+                    Standard Interact Club Constitution
                   </Text>
                   <View>
                     <Text
@@ -195,7 +197,7 @@ const Resources = () => {
                       color: appColors.grey,
                     }}
                   >
-                    Event Report Format
+                    Recommended Interact Club Bylaws
                   </Text>
                   <View>
                     <Text
@@ -251,7 +253,7 @@ const Resources = () => {
                       color: appColors.grey,
                     }}
                   >
-                    Event Report Format
+                    Charter Ceremony Format
                   </Text>
                   <View>
                     <Text
@@ -307,7 +309,175 @@ const Resources = () => {
                       color: appColors.grey,
                     }}
                   >
+                    Example Minutes
+                  </Text>
+                  <View>
+                    <Text
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 12,
+                        color: appColors.grey,
+                      }}
+                    >
+                      (For Secreatry)
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    flex: 0.2,
+                    position: "absolute",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    alignItems: "center",
+                    right: 10,
+                    padding: 10,
+                  }}
+                >
+                  <Entypo name="download" size={18} color={appColors.blue} />
+                </View>
+              </View>
+              <View
+                style={{
+                  backgroundColor: appColors.white,
+                  elevation: 5,
+                  shadowColor: appColors.blue,
+                  shadowOffset: { width: 5, height: 2 },
+                  shadowOpacity: 0.25,
+                  shadowRadius: 3.84,
+                  borderRadius: 6,
+                  flexDirection: "row",
+                  height: 60,
+                  padding: 10,
+                  marginBottom: 10,
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0.8,
+                  }}
+                >
+                  <Text
+                    style={{
+                      marginLeft: 6,
+                      fontSize: 14,
+                      fontWeight: "600",
+                      color: appColors.grey,
+                    }}
+                  >
                     Event Report Format
+                  </Text>
+                  <View>
+                    <Text
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 12,
+                        color: appColors.grey,
+                      }}
+                    >
+                      (For Secreatry)
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    flex: 0.2,
+                    position: "absolute",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    alignItems: "center",
+                    right: 10,
+                    padding: 10,
+                  }}
+                >
+                  <Entypo name="download" size={18} color={appColors.blue} />
+                </View>
+              </View>
+              <View
+                style={{
+                  backgroundColor: appColors.white,
+                  elevation: 5,
+                  shadowColor: appColors.blue,
+                  shadowOffset: { width: 5, height: 2 },
+                  shadowOpacity: 0.25,
+                  shadowRadius: 3.84,
+                  borderRadius: 6,
+                  flexDirection: "row",
+                  height: 60,
+                  padding: 10,
+                  marginBottom: 10,
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0.8,
+                  }}
+                >
+                  <Text
+                    style={{
+                      marginLeft: 6,
+                      fontSize: 14,
+                      fontWeight: "600",
+                      color: appColors.grey,
+                    }}
+                  >
+                    Example Report
+                  </Text>
+                  <View>
+                    <Text
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 12,
+                        color: appColors.grey,
+                      }}
+                    >
+                      (For Secreatry)
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    flex: 0.2,
+                    position: "absolute",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    alignItems: "center",
+                    right: 10,
+                    padding: 10,
+                  }}
+                >
+                  <Entypo name="download" size={18} color={appColors.blue} />
+                </View>
+              </View>
+              <View
+                style={{
+                  backgroundColor: appColors.white,
+                  elevation: 5,
+                  shadowColor: appColors.blue,
+                  shadowOffset: { width: 5, height: 2 },
+                  shadowOpacity: 0.25,
+                  shadowRadius: 3.84,
+                  borderRadius: 6,
+                  flexDirection: "row",
+                  height: 60,
+                  padding: 10,
+                  marginBottom: 10,
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0.8,
+                  }}
+                >
+                  <Text
+                    style={{
+                      marginLeft: 6,
+                      fontSize: 14,
+                      fontWeight: "600",
+                      color: appColors.grey,
+                    }}
+                  >
+                    Letterhead Example
                   </Text>
                   <View>
                     <Text
@@ -363,7 +533,119 @@ const Resources = () => {
                       color: appColors.grey,
                     }}
                   >
-                    Event Report Format
+                    Vibrant Club Calculator
+                  </Text>
+                  <View>
+                    <Text
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 12,
+                        color: appColors.grey,
+                      }}
+                    >
+                      (For Interact Clubs)
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    flex: 0.2,
+                    position: "absolute",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    alignItems: "center",
+                    right: 10,
+                    padding: 10,
+                  }}
+                >
+                  <Entypo name="download" size={18} color={appColors.blue} />
+                </View>
+              </View>
+              <View
+                style={{
+                  backgroundColor: appColors.white,
+                  elevation: 5,
+                  shadowColor: appColors.blue,
+                  shadowOffset: { width: 5, height: 2 },
+                  shadowOpacity: 0.25,
+                  shadowRadius: 3.84,
+                  borderRadius: 6,
+                  flexDirection: "row",
+                  height: 60,
+                  padding: 10,
+                  marginBottom: 10,
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0.8,
+                  }}
+                >
+                  <Text
+                    style={{
+                      marginLeft: 6,
+                      fontSize: 14,
+                      fontWeight: "600",
+                      color: appColors.grey,
+                    }}
+                  >
+                    Meeting Minutes Example
+                  </Text>
+                  <View>
+                    <Text
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 12,
+                        color: appColors.grey,
+                      }}
+                    >
+                      (For Interact Clubs)
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={{
+                    flex: 0.2,
+                    position: "absolute",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    alignItems: "center",
+                    right: 10,
+                    padding: 10,
+                  }}
+                >
+                  <Entypo name="download" size={18} color={appColors.blue} />
+                </View>
+              </View>
+              <View
+                style={{
+                  backgroundColor: appColors.white,
+                  elevation: 5,
+                  shadowColor: appColors.blue,
+                  shadowOffset: { width: 5, height: 2 },
+                  shadowOpacity: 0.25,
+                  shadowRadius: 3.84,
+                  borderRadius: 6,
+                  flexDirection: "row",
+                  height: 60,
+                  padding: 10,
+                  marginBottom: 10,
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0.8,
+                  }}
+                >
+                  <Text
+                    style={{
+                      marginLeft: 6,
+                      fontSize: 14,
+                      fontWeight: "600",
+                      color: appColors.grey,
+                    }}
+                  >
+                    District Logos
                   </Text>
                   <View>
                     <Text
