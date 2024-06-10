@@ -1,2064 +1,272 @@
 [
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
   {
-    "id": 6621,
-    "date": "2023-07-25T18:17:45",
-    "date_gmt": "2023-07-25T18:17:45",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6621"
-    },
-    "modified": "2023-09-04T18:06:32",
-    "modified_gmt": "2023-09-04T18:06:32",
-    "slug": "itr-chandani-joshi",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-chandani-joshi/",
-    "title": {
-      "rendered": "Itr. Chandani Joshi"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6622,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6621"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6622"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6621"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Biplob Thapa",
+    "designation": "DISTRICT INTERACT REPRESENTATIVE",
+    "homeClub": "Interact Club of Ullens IBDP",
+    "mail": "dirbiplob@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/IMG_2747-scaled-e1692166948864-1536x1536.jpeg",
+    "instagram": "https://www.instagram.com/biplob.thp/",
+    "facebook": "https://www.facebook.com/bolpib.apaht.7",
+    "phoneNumber": "9816196778"
   },
   {
-    "id": 6619,
-    "date": "2023-07-25T18:15:34",
-    "date_gmt": "2023-07-25T18:15:34",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6619"
-    },
-    "modified": "2023-10-07T15:49:15",
-    "modified_gmt": "2023-10-07T15:49:15",
-    "slug": "itr-deepsan-adhikari",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-deepsan-adhikari/",
-    "title": {
-      "rendered": "Itr. Deepsan Adhikari"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6620,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6619"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6620"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6619"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Bipin Subedi",
+    "designation": "IMMEDIATE PAST DISTRICT INTERACT REPRESENTATIVE",
+    "homeClub": "Interact Club of Pokhara Lakeside",
+    "mail": "dirbipin2223@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Bipin-subedi-e1692167000946-500x500.jpg",
+    "instagram": "https://www.instagram.com/_bipinsubedi/",
+    "facebook": "https://www.facebook.com/beepin.subedi.886",
+    "phoneNumber": "9844919003%20"
   },
   {
-    "id": 6617,
-    "date": "2023-07-25T18:13:30",
-    "date_gmt": "2023-07-25T18:13:30",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6617"
-    },
-    "modified": "2023-09-04T18:08:02",
-    "modified_gmt": "2023-09-04T18:08:02",
-    "slug": "itr-amrita-adhikari",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-amrita-adhikari/",
-    "title": {
-      "rendered": "Itr. Amrita Adhikari"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6618,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6617"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6618"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6617"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Himani Acharya",
+    "designation": "ASSISTANT DISTRICT INTERACT REPRESENTATIVE",
+    "homeClub": "Interact Club of Canon",
+    "mail": "thehimaniacharya@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Himani-500x500.jpg",
+    "instagram": "https://interactnepal.org/team/",
+    "facebook": "https://interactnepal.org/team/",
+    "phoneNumber": ""
   },
   {
-    "id": 6612,
-    "date": "2023-07-25T16:01:37",
-    "date_gmt": "2023-07-25T16:01:37",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6612"
-    },
-    "modified": "2023-12-31T09:24:03",
-    "modified_gmt": "2023-12-31T09:24:03",
-    "slug": "itr-krish-agrawal",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-krish-agrawal/",
-    "title": {
-      "rendered": "Itr. Krish Agrawal"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6613,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6612"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6613"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6612"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Sheetal Thakur",
+    "designation": "DISTRICT SECRETARY",
+    "homeClub": "Interact Club of Yala",
+    "mail": "dssheetal3292@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Sheetal-e1692345374860-500x500.jpg",
+    "instagram": "",
+    "facebook": "",
+    "phoneNumber": "9851320224"
   },
   {
-    "id": 6610,
-    "date": "2023-07-25T15:58:20",
-    "date_gmt": "2023-07-25T15:58:20",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6610"
-    },
-    "modified": "2023-09-04T18:09:41",
-    "modified_gmt": "2023-09-04T18:09:41",
-    "slug": "itr-bipin-parajuli",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-bipin-parajuli/",
-    "title": {
-      "rendered": "Itr. Bipin Parajuli"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6611,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6610"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6611"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6610"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Rtr. Aayush Pokhrel",
+    "designation": "DISTRICT ADVISOR",
+    "homeClub": "Rotaract Club of Central Valley Kasthamandap",
+    "mail": "itr.aayush@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/aayush_pokhrel-500x500.jpg",
+    "instagram": "https://www.instagram.com/aayushh__pokhrel/",
+    "facebook": "https://www.facebook.com/aayush.pokhrel18320",
+    "phoneNumber": "9855086560"
   },
   {
-    "id": 6607,
-    "date": "2023-07-25T15:51:11",
-    "date_gmt": "2023-07-25T15:51:11",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6607"
-    },
-    "modified": "2023-09-04T18:10:20",
-    "modified_gmt": "2023-09-04T18:10:20",
-    "slug": "itr-aarushka-kattel",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-aarushka-kattel/",
-    "title": {
-      "rendered": "Itr. Aarushka Kattel"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6609,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6607"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6609"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6607"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Safal Shrestha",
+    "designation": "DISTRICT TREASURER",
+    "homeClub": "Interact Club of Yala",
+    "mail": "shresthasafal98611@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Safal_Shrestha-scaled-e1692166903306-500x500.jpg",
+    "instagram": "https://www.instagram.com/___safal.shrestha___/",
+    "facebook": "https://www.facebook.com/safal.shrestha.378",
+    "phoneNumber": "9861135804"
   },
   {
-    "id": 6606,
-    "date": "2023-07-25T15:48:14",
-    "date_gmt": "2023-07-25T15:48:14",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6606"
-    },
-    "modified": "2023-09-04T18:10:56",
-    "modified_gmt": "2023-09-04T18:10:56",
-    "slug": "itr-safal-shrestha",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-safal-shrestha/",
-    "title": {
-      "rendered": "Itr. Safal Shrestha"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6608,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6606"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6608"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6606"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Aarushka Kattel",
+    "designation": "DISTRICT TRAINER",
+    "homeClub": "Interact Club of Vishwa Adarsha",
+    "mail": "aarushkattel@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/IMG_3871-500x500.jpg",
+    "instagram": "https://www.instagram.com/aarushkaaaah/",
+    "facebook": "https://www.facebook.com/aarushka.kattel",
+    "phoneNumber": "tel:9811007424"
   },
   {
-    "id": 6604,
-    "date": "2023-07-25T06:28:59",
-    "date_gmt": "2023-07-25T06:28:59",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6604"
-    },
-    "modified": "2024-02-11T18:19:12",
-    "modified_gmt": "2024-02-11T18:19:12",
-    "slug": "rtr-aayush-pokhrel",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/rtr-aayush-pokhrel/",
-    "title": {
-      "rendered": "Rtr. Aayush Pokhrel"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6605,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6604"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6605"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6604"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Bipin Parajuli",
+    "designation": "ZONAL PLANNER",
+    "homeClub": "Interact club of Little Flower",
+    "mail": "bipinparajuli30@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Bipin-Parajuli--500x500.jpg",
+    "instagram": "https://www.instagram.com/_bipinthapa13_/",
+    "facebook": "https://www.facebook.com/bipin.thapa.7146",
+    "phoneNumber": "9846868882"
   },
   {
-    "id": 6602,
-    "date": "2023-07-25T06:24:05",
-    "date_gmt": "2023-07-25T06:24:05",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6602"
-    },
-    "modified": "2023-09-04T18:12:27",
-    "modified_gmt": "2023-09-04T18:12:27",
-    "slug": "itr-sheetal-thakur",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-sheetal-thakur/",
-    "title": {
-      "rendered": "Itr. Sheetal Thakur"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6603,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6602"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6603"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6602"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Krish Agrawal",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 1",
+    "homeClub": "Interact Club of Delhi Public School",
+    "mail": "krishag67@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Krish-500x500.jpg",
+    "instagram": "https://instagram.com/krish___agrawal",
+    "facebook": "https://www.facebook.com/krish.agrawal.31149",
+    "phoneNumber": "9812303790"
   },
   {
-    "id": 6600,
-    "date": "2023-07-25T06:20:23",
-    "date_gmt": "2023-07-25T06:20:23",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6600"
-    },
-    "modified": "2023-07-26T13:15:17",
-    "modified_gmt": "2023-07-26T13:15:17",
-    "slug": "itr-himani-acharya",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-himani-acharya/",
-    "title": {
-      "rendered": "Itr. Himani Acharya"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6601,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6600"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6601"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6600"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Sushan Adhikari",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 2",
+    "homeClub": "Interact Club of Valmiki",
+    "mail": "sushanadhikari047@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/12/zir_2-e1701534967428-500x500.jpeg",
+    "instagram": "https://instagram.com/sushanadhikari1",
+    "facebook": "https://www.facebook.com/susan.adhikari.7370?mibextid=hrBMPu",
+    "phoneNumber": "9861289296"
   },
   {
-    "id": 6599,
-    "date": "2023-07-25T06:14:16",
-    "date_gmt": "2023-07-25T06:14:16",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6599"
-    },
-    "modified": "2023-12-18T17:39:13",
-    "modified_gmt": "2023-12-18T17:39:13",
-    "slug": "itr-biplob-thapa",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-biplob-thapa/",
-    "title": {
-      "rendered": "Itr. Biplob Thapa"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6564,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6599"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6564"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6599"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Amrita Adhikari",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 3",
+    "homeClub": "Interact Club Of Pokhara Lakeside",
+    "mail": "amritaadhikari888@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Amrita-Adhikari_-500x500.jpg",
+    "instagram": "https://www.instagram.com/_am_ree.ta/",
+    "facebook": "https://www.facebook.com/amrita.adhikari.581730",
+    "phoneNumber": "9820606272"
   },
   {
-    "id": 6596,
-    "date": "2023-07-25T06:03:20",
-    "date_gmt": "2023-07-25T06:03:20",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=6596"
-    },
-    "modified": "2023-08-16T06:23:28",
-    "modified_gmt": "2023-08-16T06:23:28",
-    "slug": "itr-bipin-subedi",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-bipin-subedi/",
-    "title": {
-      "rendered": "ITR. BIPIN SUBEDI"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 6597,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/6596"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/6597"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=6596"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Deepsan Adhikari",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 4",
+    "homeClub": "Interact Club of Kalika",
+    "mail": "adhikarideepsan19@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/353880733_6447625785296877_7455858134988631349_n-500x500.jpg",
+    "instagram": "https://www.instagram.com/deepsan_adhikari/",
+    "facebook": "https://www.facebook.com/deep.san.9026",
+    "phoneNumber": "9849917449"
   },
   {
-    "id": 3831,
-    "date": "2022-11-20T09:50:15",
-    "date_gmt": "2022-11-20T09:50:15",
-    "guid": {
-      "rendered": "https://interactnepal.org/?post_type=awsm_team_member&#038;p=3831"
-    },
-    "modified": "2022-11-20T09:58:08",
-    "modified_gmt": "2022-11-20T09:58:08",
-    "slug": "grace-rasaily",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/grace-rasaily/",
-    "title": {
-      "rendered": "Grace Rasaily"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 3832,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/3831"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/3832"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=3831"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Chandani Joshi",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 5",
+    "homeClub": "Interact Club of Glee Academy",
+    "mail": "chandanij00@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Chandani-500x500.jpg",
+    "instagram": "https://www.instagram.com/_i.chandani_/",
+    "facebook": "https://www.facebook.com/pratigya.joshi",
+    "phoneNumber": "9812607013"
   },
   {
-    "id": 2081,
-    "date": "2022-07-08T04:20:25",
-    "date_gmt": "2022-07-08T04:20:25",
-    "guid": {
-      "rendered": "https://beta.interactnepal.org/?post_type=awsm_team_member&#038;p=2081"
-    },
-    "modified": "2022-11-17T06:20:24",
-    "modified_gmt": "2022-11-17T06:20:24",
-    "slug": "biplob-thapa",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/biplob-thapa/",
-    "title": {
-      "rendered": "Biplob Thapa"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2082,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/2081"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2082"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=2081"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Om Prakash Dev",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 6",
+    "homeClub": "Interact Club of Annapurna H.S. School",
+    "mail": "om9861188765@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/IMG_20230606_085116-e1692166807728-500x500.jpg",
+    "instagram": "https://www.instagram.com/_i.chandani_/",
+    "facebook": "https://www.facebook.com/pratigya.joshi",
+    "phoneNumber": "9812607013"
   },
   {
-    "id": 2009,
-    "date": "2022-07-06T20:08:52",
-    "date_gmt": "2022-07-06T20:08:52",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=2009"
-    },
-    "modified": "2023-07-25T06:02:11",
-    "modified_gmt": "2023-07-25T06:02:11",
-    "slug": "itr-himal-acharya",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-himal-acharya/",
-    "title": {
-      "rendered": "ITR. HIMAL ACHARYA"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2010,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/2009"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2010"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=2009"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Anmol Silwal",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 7",
+    "homeClub": "interact Club of Bhaktapur and Kavre",
+    "mail": "anmol.silwal555@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Itr.-Anmol-Silwal-500x500.jpg",
+    "instagram": "https://www.instagram.com/_anmol_silwal/",
+    "facebook": "https://www.facebook.com/itr.anmol",
+    "phoneNumber": "9762447565"
   },
   {
-    "id": 2007,
-    "date": "2022-07-06T20:06:45",
-    "date_gmt": "2022-07-06T20:06:45",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=2007"
-    },
-    "modified": "2023-10-12T17:13:03",
-    "modified_gmt": "2023-10-12T17:13:03",
-    "slug": "itr-sushant-katwal",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/itr-sushant-katwal/",
-    "title": {
-      "rendered": "RTR. SUSHANT KATWAL"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2008,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/2007"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2008"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=2007"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Abi Acharya",
+    "designation": "ZONAL INTERACT REPRESENTATIVE - ZONE 8",
+    "homeClub": "Interact Club of Yala",
+    "mail": "acharyaabi12@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Abi-500x500.jpeg",
+    "instagram": "https://www.instagram.com/abi_acharya1/",
+    "facebook": "https://www.facebook.com/abiacharya.acharya",
+    "phoneNumber": "tel:9803655773"
   },
   {
-    "id": 2005,
-    "date": "2022-07-06T20:05:38",
-    "date_gmt": "2022-07-06T20:05:38",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=2005"
-    },
-    "modified": "2022-07-06T20:05:39",
-    "modified_gmt": "2022-07-06T20:05:39",
-    "slug": "rtr-shreeju-magaju",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/rtr-shreeju-magaju/",
-    "title": {
-      "rendered": "RTR. SHREEJU MAGAJU"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2006,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/2005"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2006"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=2005"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Lochan Joshi",
+    "designation": "DISTRICT EDITOR",
+    "homeClub": "Interact Club of Glee Academy",
+    "mail": "lochanj73@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Lochan-500x500.jpg",
+    "instagram": "https://www.instagram.com/the_ikshana_/",
+    "facebook": "https://www.facebook.com/lochan.ikshana.chakshu",
+    "phoneNumber": "9822650056"
   },
   {
-    "id": 2003,
-    "date": "2022-07-06T20:04:48",
-    "date_gmt": "2022-07-06T20:04:48",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=2003"
-    },
-    "modified": "2022-07-06T20:04:49",
-    "modified_gmt": "2022-07-06T20:04:49",
-    "slug": "milan-raj-paswan",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/milan-raj-paswan/",
-    "title": {
-      "rendered": "MILAN RAJ PASWAN"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2004,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/2003"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2004"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=2003"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Aanchal Nepal",
+    "designation": "DISTRICT EDITOR",
+    "homeClub": "Interact club of Matribhumi Baluwatar",
+    "mail": "aanchal.nepal10@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Messenger_creation_713709263065913-500x500.jpeg",
+    "instagram": "https://www.instagram.com/aanchal_nepal?igsh=c3BkYTV5c3hmMHNo",
+    "facebook": "https://www.facebook.com/aanchal.nepal.547?mibextid=2JQ9oc",
+    "phoneNumber": "9765973903"
   },
   {
-    "id": 2001,
-    "date": "2022-07-06T20:04:05",
-    "date_gmt": "2022-07-06T20:04:05",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=2001"
-    },
-    "modified": "2022-07-06T20:04:06",
-    "modified_gmt": "2022-07-06T20:04:06",
-    "slug": "rtr-abhinab-shakya-pradhan",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/rtr-abhinab-shakya-pradhan/",
-    "title": {
-      "rendered": "RTR. ABHINAB SHAKYA PRADHAN"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2002,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/2001"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2002"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=2001"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Kushum Rimal",
+    "designation": "GOVERNMENT SCHOOL SUPPORT COMMITTEE HEAD",
+    "homeClub": "Interact Club of L.R.I. School",
+    "mail": "kusumrimal5@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/IMG_20221113_203448_134.jpg",
+    "instagram": "https://www.instagram.com/rimalkusum/",
+    "facebook": "https://www.facebook.com/kusum.rimal.376",
+    "phoneNumber": "9842999712"
   },
   {
-    "id": 1999,
-    "date": "2022-07-06T20:03:07",
-    "date_gmt": "2022-07-06T20:03:07",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1999"
-    },
-    "modified": "2022-07-06T20:03:08",
-    "modified_gmt": "2022-07-06T20:03:08",
-    "slug": "nishchaya-shrestha",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/nishchaya-shrestha/",
-    "title": {
-      "rendered": "NISHCHAYA SHRESTHA"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2000,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1999"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2000"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1999"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Aaditya Subedi",
+    "designation": "CLUB SERVICE COMMITTEE HEAD",
+    "homeClub": "Interact club of Ullens IBDP",
+    "mail": "aadityasubedi.np@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Aaditya-Subedi--500x500.jpeg",
+    "instagram": "https://www.instagram.com/aadityasubedii/",
+    "facebook": "https://www.facebook.com/profile.php?id=100010024188242",
+    "phoneNumber": "9866317066"
   },
   {
-    "id": 1997,
-    "date": "2022-07-06T20:02:27",
-    "date_gmt": "2022-07-06T20:02:27",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1997"
-    },
-    "modified": "2022-07-06T20:02:27",
-    "modified_gmt": "2022-07-06T20:02:27",
-    "slug": "rtr-rabina-shakya",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/rtr-rabina-shakya/",
-    "title": {
-      "rendered": "RTR. RABINA SHAKYA"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1998,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1997"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1998"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1997"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Shaillina Rai",
+    "designation": "COMMUNITY SERVICE COMMITTEE HEAD",
+    "homeClub": "Internet club of GoldenGate Int’l College",
+    "mail": "itr.shaillinarai.icggic@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/shaillina--500x500.jpg",
+    "instagram": "https://www.instagram.com/saily_na/",
+    "facebook": "https://www.facebook.com/saillina.tamlarai",
+    "phoneNumber": "9804077698"
   },
   {
-    "id": 1995,
-    "date": "2022-07-06T20:01:30",
-    "date_gmt": "2022-07-06T20:01:30",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1995"
-    },
-    "modified": "2022-07-06T20:01:30",
-    "modified_gmt": "2022-07-06T20:01:30",
-    "slug": "prakshyapan-prasai",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/prakshyapan-prasai/",
-    "title": {
-      "rendered": "PRAKSHYAPAN PRASAI"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1996,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1995"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1996"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1995"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Resman Basnet",
+    "designation": "DISTRICT CHIEF INTERNATIONAL RELATIONS OFFICER",
+    "homeClub": "Interact Club of GoldenGate Int’l College",
+    "mail": "r5smanbasnet467@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Resman-basnet-489x500.png",
+    "instagram": "https://www.instagram.com/r5sman/",
+    "facebook": "https://www.facebook.com/resman.basnet.7",
+    "phoneNumber": "9841988796"
   },
   {
-    "id": 1993,
-    "date": "2022-07-06T20:00:51",
-    "date_gmt": "2022-07-06T20:00:51",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1993"
-    },
-    "modified": "2022-07-06T20:00:52",
-    "modified_gmt": "2022-07-06T20:00:52",
-    "slug": "rojina-duwal",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/rojina-duwal/",
-    "title": {
-      "rendered": "ROJINA DUWAL"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1994,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1993"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1994"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1993"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Grace Rasaily",
+    "designation": "DISTRICT INFORMATION COMMUNICATION AND TECHNOLOGY HEAD",
+    "homeClub": "Interact Club of Chelsea International Academy",
+    "mail": "rasailygrace56@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2022/11/viber_image_2022-08-31_13-43-03-978-500x500.jpg",
+    "instagram": "https://www.instagram.com/gracerasaily/",
+    "facebook": "https://www.facebook.com/grace.rasaily.9",
+    "phoneNumber": "9813623491"
   },
   {
-    "id": 1991,
-    "date": "2022-07-06T20:00:07",
-    "date_gmt": "2022-07-06T20:00:07",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1991"
-    },
-    "modified": "2024-05-10T07:58:55",
-    "modified_gmt": "2024-05-10T07:58:55",
-    "slug": "dr-nikesh-kaushal",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/dr-nikesh-kaushal/",
-    "title": {
-      "rendered": "DR. NIKESH KAUSHAL"
-    },
-    "content": {
-      "rendered": "Ram Ram Sir",
-      "protected": false
-    },
-    "featured_media": 1992,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1991"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1992"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1991"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Sushil Bhattarai",
+    "designation": "DISTRICT INFORMATION COMMUNICATION TECHNOLOGY OFFICER",
+    "homeClub": "Interact Club of Kalika",
+    "mail": "sushilbhattarai0045@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Sushil-Bhattarai-500x500.jpg",
+    "instagram": "https://www.instagram.com/sushil_bhattarai45/",
+    "facebook": "https://www.facebook.com/sushilbhattaraiofficial",
+    "phoneNumber": "9846761072"
   },
   {
-    "id": 1950,
-    "date": "2022-07-06T18:28:28",
-    "date_gmt": "2022-07-06T18:28:28",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1950"
-    },
-    "modified": "2022-11-23T18:19:19",
-    "modified_gmt": "2022-11-23T18:19:19",
-    "slug": "nikita-gautam",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/nikita-gautam/",
-    "title": {
-      "rendered": "Nikita Gautam"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1975,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1950"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1975"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1950"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Sanskar Lamsal",
+    "designation": "DISTRICT INFORMATION COMMUNICATION TECHNOLOGY OFFICER",
+    "homeClub": "Interact Club of Alliance Downtown",
+    "mail": "sskrlmsl@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/Sanskar_Lamsaal-500x500.jpg",
+    "instagram": "https://www.instagram.com/ssanskaar_/",
+    "facebook": "https://www.facebook.com/Sanskar.lmsl",
+    "phoneNumber": "9863196247"
   },
   {
-    "id": 1949,
-    "date": "2022-07-06T18:26:49",
-    "date_gmt": "2022-07-06T18:26:49",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1949"
-    },
-    "modified": "2022-11-23T18:21:51",
-    "modified_gmt": "2022-11-23T18:21:51",
-    "slug": "subin-pradhan",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/subin-pradhan/",
-    "title": {
-      "rendered": "Subin Pradhan"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1974,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1949"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1974"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1949"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Nischal Dhakal",
+    "designation": "MEDIA CREW",
+    "homeClub": "Interact Club of Yala",
+    "mail": "nischald21@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/1-e1692166505418-500x500.jpg",
+    "instagram": "https://www.instagram.com/_nischald_/",
+    "facebook": "https://www.facebook.com/nischal.dhakal.330",
+    "phoneNumber": "9843822517"
   },
   {
-    "id": 1948,
-    "date": "2022-07-06T18:24:00",
-    "date_gmt": "2022-07-06T18:24:00",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1948"
-    },
-    "modified": "2022-11-17T06:00:33",
-    "modified_gmt": "2022-11-17T06:00:33",
-    "slug": "himani-acharya",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/himani-acharya/",
-    "title": {
-      "rendered": "Himani Acharya"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1973,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1948"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1973"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1948"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 1942,
-    "date": "2022-07-06T18:08:50",
-    "date_gmt": "2022-07-06T18:08:50",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1942"
-    },
-    "modified": "2022-11-16T17:34:03",
-    "modified_gmt": "2022-11-16T17:34:03",
-    "slug": "safal-shrestha",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/safal-shrestha/",
-    "title": {
-      "rendered": "Safal Shrestha"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1966,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1942"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1966"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1942"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 1935,
-    "date": "2022-07-06T17:58:11",
-    "date_gmt": "2022-07-06T17:58:11",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1935"
-    },
-    "modified": "2022-11-16T17:32:28",
-    "modified_gmt": "2022-11-16T17:32:28",
-    "slug": "sheetal-thakur",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/sheetal-thakur/",
-    "title": {
-      "rendered": "Sheetal Thakur"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1960,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1935"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1960"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1935"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 1934,
-    "date": "2022-07-06T17:56:39",
-    "date_gmt": "2022-07-06T17:56:39",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1934"
-    },
-    "modified": "2022-11-23T18:25:23",
-    "modified_gmt": "2022-11-23T18:25:23",
-    "slug": "garima-ray",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/garima-ray/",
-    "title": {
-      "rendered": "Garima Ray"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 1959,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1934"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/1959"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1934"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 1932,
-    "date": "2022-07-06T17:51:54",
-    "date_gmt": "2022-07-06T17:51:54",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1932"
-    },
-    "modified": "2022-11-16T06:03:57",
-    "modified_gmt": "2022-11-16T06:03:57",
-    "slug": "aarushka-kattel",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/aarushka-kattel/",
-    "title": {
-      "rendered": "Aarushka Kattel"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2267,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1932"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2267"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1932"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 1927,
-    "date": "2022-07-06T14:02:47",
-    "date_gmt": "2022-07-06T14:02:47",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1927"
-    },
-    "modified": "2022-11-17T06:19:40",
-    "modified_gmt": "2022-11-17T06:19:40",
-    "slug": "himal-acharya",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/himal-acharya/",
-    "title": {
-      "rendered": "Himal Acharya"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2010,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1927"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2010"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1927"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
-  },
-  {
-    "id": 1925,
-    "date": "2022-07-06T14:00:41",
-    "date_gmt": "2022-07-06T14:00:41",
-    "guid": {
-      "rendered": "http://localhost/Interact%20District%203292/?post_type=awsm_team_member&#038;p=1925"
-    },
-    "modified": "2022-11-17T06:18:02",
-    "modified_gmt": "2022-11-17T06:18:02",
-    "slug": "bipin-subedi",
-    "status": "publish",
-    "type": "awsm_team_member",
-    "link": "https://interactnepal.org/awsm_team_member/bipin-subedi/",
-    "title": {
-      "rendered": "Bipin Subedi"
-    },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "featured_media": 2128,
-    "template": "",
-    "meta": {
-      "_ti_tpc_template_sync": false,
-      "_ti_tpc_template_id": ""
-    },
-    "_links": {
-      "self": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member/1925"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/awsm_team_member"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/types/awsm_team_member"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://interactnepal.org/wp-json/wp/v2/media/2128"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://interactnepal.org/wp-json/wp/v2/media?parent=1925"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    }
+    "name": "Itr. Khushi Shrestha",
+    "designation": "DISTRICT SERGEANT AT ARMS",
+    "homeClub": "Interact Club of Peace Zone School",
+    "mail": "itr.khushishrestha@gmail.com",
+    "image": "https://interactnepal.org/wp-content/uploads/2023/07/khushi.jpeg",
+    "instagram": "https://www.instagram.com/khushi.xresthaa/",
+    "facebook": "https://www.facebook.com/khushi.shrestha.7315",
+    "phoneNumber": "9842035061"
   }
 ]

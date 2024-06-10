@@ -14,21 +14,25 @@ import {
 import moment from "moment";
 type Props = {
   data: {
-    content: {
-      rendered: string;
-    };
-
-    title: {
-      rendered: string;
-    };
-    // _links: {
-    //   self: {
-    //     href: string;
-    //   }[];
-    // };
+    name: string;
+    designation: string;
+    mail: string;
+    phone: string;
+    homeClub: string;
+    image: string;
   };
 };
+const capitalizeFirstLetter = (text: string) => {
+  return text
+    .split(" ")
+    .map((word: string) => {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+};
+
 export default function ListTeamComponent(props: Props) {
+  let designation = capitalizeFirstLetter(props.data.designation);
   return (
     <View
       style={{
@@ -65,8 +69,7 @@ export default function ListTeamComponent(props: Props) {
           //   uri: props.data._links.self[0].href,
           // }}
           source={{
-            uri:
-              "https://interactnepal.org/wp-content/uploads/2023/07/IMG_2747-scaled-e1692166948864.jpeg",
+            uri: props.data.image,
           }}
         />
       </View>
@@ -101,7 +104,7 @@ export default function ListTeamComponent(props: Props) {
               }}
             >
               {/* {props.data?.title?.rendered} */}
-              Sushil Bhattarai
+              {props.data.name}
             </Text>
           </View>
           {/* <View
@@ -126,11 +129,10 @@ export default function ListTeamComponent(props: Props) {
             style={{
               color: appColors.grey,
               fontSize: 12,
-              fontWeight: "400",
+              fontWeight: "500",
             }}
           >
-            District Information Technology Officer
-            {/* {props.data.post} */}
+            {designation}
           </Text>
         </View>
 
@@ -156,8 +158,7 @@ export default function ListTeamComponent(props: Props) {
                 fontWeight: "500",
               }}
             >
-              Interact Club of Kalika
-              {/* {props.data?.content?.rendered}{" "} */}
+              {props.data.homeClub} {/* {props.data?.content?.rendered}{" "} */}
             </Text>
           </View>
         </View>
@@ -183,8 +184,7 @@ export default function ListTeamComponent(props: Props) {
                 fontWeight: "500",
               }}
             >
-              sushilbhattarai0054@gmail.com
-              {/* {props.data.email} */}
+              {props.data.mail}
             </Text>
           </View>
         </View>

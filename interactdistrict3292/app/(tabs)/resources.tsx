@@ -39,19 +39,19 @@ const Resources = () => {
     },
     {
       title: "Example Minutes",
-      description: "(For Secreatry)",
+      description: "(For Secretary)",
       url:
         "http://interactnepal.org/wp-content/uploads/2023/09/Example-Minutes.pdf",
     },
     {
       title: "Event Report Format",
-      description: "(For Secreatry)",
+      description: "(For Secretary)",
       url:
         "http://interactnepal.org/wp-content/uploads/2023/09/Event-Report-Format-2023-24.pdf",
     },
     {
       title: "Example Report",
-      description: "(For Secreatry)",
+      description: "(For Secretary)",
       url:
         "http://interactnepal.org/wp-content/uploads/2022/09/CLub-Installation-Proper-Format.pdf",
     },
