@@ -1,7 +1,11 @@
 import { Tabs } from "expo-router";
 import React from "react";
 import { Image } from "react-native";
-import { FontAwesome } from "@expo/vector-icons";
+import {
+  FontAwesome,
+  MaterialCommunityIcons,
+  MaterialIcons,
+} from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
 import { useColorScheme } from "@/hooks/useColorScheme";
 
@@ -40,6 +44,15 @@ export default function TabLayout() {
           title: "Teams",
           tabBarIcon: ({ color, focused }) => (
             <FontAwesome name="group" size={24} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="resources"
+        options={{
+          title: "Teams",
+          tabBarIcon: ({ color, focused }) => (
+            <MaterialIcons name="widgets" size={24} color={color} />
           ),
         }}
       />

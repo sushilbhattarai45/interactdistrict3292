@@ -23,6 +23,7 @@ import Header from "../components/header";
 export default function HomeScreen() {
   const [projects, setProjects] = React.useState([]);
   const [choosenFilter, setChoosenFilter] = React.useState("All");
+  const [filterProjects, setFilterProjects] = React.useState([]);
   const filterOptions = [
     { name: "All", value: "All" },
     { name: "Community", value: "Community" },
@@ -36,6 +37,7 @@ export default function HomeScreen() {
     async function getProjectsInfo() {
       let response = await getProjects();
       setProjects(response);
+      setFilterProjects(response);
     }
     getProjectsInfo();
   }, []);
