@@ -68,6 +68,7 @@ export default function Teams() {
               }}
             >
               <Text
+                numberOfLines={1}
                 style={{
                   fontSize: 16,
                   fontWeight: "bold",
@@ -75,7 +76,7 @@ export default function Teams() {
                   marginLeft: 10,
                 }}
               >
-                District Team For 2022-23
+                District Team For Rotary Year 2023-24
               </Text>
               <View
                 style={{
