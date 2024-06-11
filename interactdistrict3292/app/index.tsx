@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { StyleSheet, View, Text, Image, Animated, Easing } from "react-native";
 import appColors from "./components/colors/colors";
 import { router } from "expo-router";
@@ -19,10 +19,33 @@ const Index = () => {
 
   useEffect(() => {
     startAnimation();
-    setTimeout(() => {
-      router.push("(tabs)");
-    }, 3000);
+    // setTimeout(() => {
+    //   router.push("(tabs)");
+    // }, 3000);
   }, []);
+
+  const FadeInView = (props) => {
+    const fadeAnim = useRef(new Animated.Value(0)).current; // Initial value for opacity: 0
+
+    useEffect(() => {
+      Animated.timing(fadeAnim, {
+        toValue: 1,
+        duration: 3000,
+        useNativeDriver: true,
+      }).start();
+    }, [fadeAnim]);
+
+    return (
+      <Animated.View // Special animatable View
+        style={{
+          ...props.style,
+          opacity: fadeAnim, // Bind opacity to animated value
+        }}
+      >
+        {props.children}
+      </Animated.View>
+    );
+  };
 
   return (
     <View
@@ -39,14 +62,16 @@ const Index = () => {
           justifyContent: "flex-end",
         }}
       >
-        <Image
-          style={{
-            objectFit: "contain",
-            width: 300,
-            height: 200,
-          }}
-          source={require("../assets/images/theme.png")}
-        />
+        <FadeInView style={{}}>
+          <Image
+            style={{
+              objectFit: "contain",
+              width: 300,
+              height: 200,
+            }}
+            source={require("../assets/images/theme.png")}
+          />
+        </FadeInView>
       </View>
 
       <View
@@ -56,51 +81,55 @@ const Index = () => {
           alignItems: "center",
         }}
       >
-        <Animated.Image
-          style={{
-            width: 40,
-            height: 40,
-            resizeMode: "cover",
-            borderRadius: 25,
-            transform: [
-              {
-                rotate: spinValue.interpolate({
-                  inputRange: [0, 1],
-                  outputRange: ["0deg", "360deg"],
-                }),
-              },
-            ],
-          }}
-          source={require("../assets/images/interact-wheel.png")}
-        />
-        <View
-          style={{
-            marginTop: 10,
-            marginBottom: 50,
-            alignItems: "center",
-          }}
-        >
-          <Text
+        <FadeInView style={{}}>
+          <Animated.Image
             style={{
-              fontSize: 16,
-              color: appColors.black,
-              fontWeight: "500",
-            }}
-          >
-            Interact District 3292{" "}
-          </Text>
-          <Text
-            style={{
+              width: 40,
+              height: 40,
               alignSelf: "center",
-              fontSize: 12,
-              color: appColors.grey,
-              fontWeight: "500",
-              textAlign: "center",
+              resizeMode: "cover",
+              borderRadius: 25,
+              transform: [
+                {
+                  rotate: spinValue.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: ["0deg", "360deg"],
+                  }),
+                },
+              ],
+            }}
+            source={require("../assets/images/interact-wheel.png")}
+          />
+
+          <View
+            style={{
+              marginTop: 10,
+              marginBottom: 60,
+              alignItems: "center",
             }}
           >
-            A facilitating body of all the Interact clubs in Nepal and Bhutan.
-          </Text>
-        </View>
+            <Text
+              style={{
+                fontSize: 16,
+                color: appColors.black,
+                fontWeight: "500",
+              }}
+            >
+              Interact District 3292{" "}
+            </Text>
+            <Text
+              style={{
+                alignSelf: "center",
+                fontSize: 12,
+                color: appColors.grey,
+                fontWeight: "500",
+                textAlign: "center",
+              }}
+            >
+              A facilitating body of all the Interact clubs in Nepal and Bhutan.
+            </Text>
+          </View>
+        </FadeInView>
       </View>
     </View>
   );
