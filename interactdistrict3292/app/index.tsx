@@ -19,9 +19,9 @@ const Index = () => {
 
   useEffect(() => {
     startAnimation();
-    // setTimeout(() => {
-    //   router.push("(tabs)");
-    // }, 3000);
+    setTimeout(() => {
+      router.push("(tabs)");
+    }, 4000);
   }, []);
 
   const FadeInView = (props) => {
