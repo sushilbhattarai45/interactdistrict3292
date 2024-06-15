@@ -109,6 +109,7 @@ export default function Teams() {
             </View>
             <FlatList
               style={{
+                marginBottom: 100,
                 zIndex: 1,
               }}
               showsVerticalScrollIndicator={false}

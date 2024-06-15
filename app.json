@@ -7,13 +7,12 @@
     "icon": "./assets/images/playstore.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "versionCode": 1,
-      "package": "com.interact.app"
+      "package": "com.interactdistrict3292.app"
     },
     "web": {
       "bundler": "metro",
