@@ -116,6 +116,7 @@ const Resources = () => {
                 >
                     {resources.map((resource, index) => (
                         <Pressable
+                            key={`resource-${index}`}
                             onPress={() => {
                                 Linking.openURL(resource.url);
                             }}

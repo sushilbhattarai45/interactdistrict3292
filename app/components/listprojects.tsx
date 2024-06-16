@@ -45,7 +45,7 @@ export default function ListProjectComponent(props: Props) {
                     style={{
                         flex: 1,
                         width: 100,
-                        minHeight: 50,
+                        minHeight: 70,
                         maxHeight: 120,
                         resizeMode: "cover",
                         borderRadius: 6,
@@ -62,7 +62,6 @@ export default function ListProjectComponent(props: Props) {
                 }}
             >
                 <Text
-                    numberOfLines={2}
                     style={{
                         fontFamily: "Roboto",
                         fontSize: 14,
@@ -70,7 +69,7 @@ export default function ListProjectComponent(props: Props) {
                         fontWeight: "700",
                     }}
                 >
-                    {props.data.title.rendered}
+                    {props.data.title.rendered.trim()}
                 </Text>
                 <View
                     style={{
@@ -78,36 +77,10 @@ export default function ListProjectComponent(props: Props) {
                         alignItems: "center",
                         alignContent: "center",
                         flexDirection: "row",
+                        marginTop: 4,
                     }}
                 >
-                    <View style={{}}>
-                        <Entypo name="home" size={12} color={appColors.blue} />
-                    </View>
-                    <View>
-                        <Text
-                            numberOfLines={1}
-                            style={{
-                                color: appColors.grey,
-                                fontSize: 12,
-                                marginLeft: 4,
-                                fontWeight: "500",
-                            }}
-                        >
-                            Interact Club of XYZ
-                        </Text>
-                    </View>
-                </View>
-                <View
-                    style={{
-                        justifyContent: "center",
-                        alignItems: "center",
-                        alignContent: "center",
-                        flexDirection: "row",
-                    }}
-                >
-                    <View style={{}}>
-                        <Ionicons name="time" size={12} color={appColors.blue} />
-                    </View>
+                    <Ionicons name="time" size={12} color={appColors.blue} />
                     <View>
                         <Text
                             numberOfLines={1}
