@@ -2,10 +2,12 @@ import React from "react";
 import { Pressable, Text, View, StatusBar, SafeAreaView } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 
 export default function NavBar() {
     const router = useRouter();
+    const insets = useSafeAreaInsets()
     return (
         <SafeAreaView style={{
             flex: 1,
@@ -13,7 +15,7 @@ export default function NavBar() {
 
             marginHorizontal: 16,
             position: "absolute",
-            top: StatusBar.currentHeight,
+            top: insets.top + 16,
         }}>
             <Pressable
                 onPress={() => {
